@@ -3,6 +3,7 @@ import org.jfree.data.category.DefaultCategoryDataset;
 
 public class Dataset
 {
+    // Создание датасетов для ArrayList
     public static CategoryDataset createDatasetArraylistMed() {
         DefaultCategoryDataset dataset;
         String categorie_10 = "10";
@@ -83,6 +84,7 @@ public class Dataset
         return dataset;
     }
 
+    // Создание датасетов для HashMap
     public static CategoryDataset createDatasetHashmapMed() {
         DefaultCategoryDataset dataset;
 

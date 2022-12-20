@@ -1,6 +1,8 @@
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.Dimension;
+import java.io.Serial;
+
 import org.jfree.ui.ApplicationFrame;
 import org.jfree.chart.ChartPanel;
 import org.jfree.chart.JFreeChart;
@@ -13,9 +15,11 @@ import org.jfree.chart.renderer.category.LineAndShapeRenderer;
 
 public class GraphComponent extends ApplicationFrame
 {
+    @Serial
     private static final long serialVersionUID = 4L;
     String title;
 
+    // Собст-но рисование графиков
     public GraphComponent(final String title, int type, boolean flag) {
         super(title);
         this.title = title;
